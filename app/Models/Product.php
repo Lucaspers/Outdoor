@@ -16,6 +16,10 @@
             'image'
         ];
 
+        public function getImageAttribute($value) {
+            return asset($value); 
+        }
+
         public function orders(){
             return $this->hasMany(Order::class);
         }

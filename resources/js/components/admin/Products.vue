@@ -13,10 +13,10 @@
             <tbody>
                 <tr v-for="(product,index) in products" v-bind:key="index" v-on:dblclick="editingItem = product">
                     <td>{{index+1}}</td>
-                    <td v-html="product.name"></td>
-                    <td v-html="product.units">{{product.units}}</td>
-                    <td v-html="product.price">{{product.price}}</td>
-                    <td v-html="product.description">{{product.description}}</td>
+                    <td>{{product.name}}</td>
+                    <td>{{product.units}}</td>
+                    <td>{{product.price}}</td>
+                    <td>{{product.description}}</td>
                 </tr>
             </tbody>
         </table>
