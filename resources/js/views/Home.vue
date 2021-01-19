@@ -45,7 +45,7 @@
         padding: 10px 15px;
     }
     .hero-section {
-        height: 30vh;
+        height: 20vh;
         background: #4b4b4b;
         align-items: center;
         margin-bottom: 20px;
@@ -54,5 +54,10 @@
     .title {
         font-size: 60px;
         color: #dd6969;
+    }
+
+    img {
+       height: auto;
+       width: 210px; 
     }
     </style>

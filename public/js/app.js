@@ -3135,7 +3135,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.hero-section[data-v-7abcea40] { height: 20vh; background: #ababab; align-items: center; margin-bottom: 20px; margin-top: -20px;\n}\n.title[data-v-7abcea40] { font-size: 60px; color: #ffffff;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.hero-section[data-v-7abcea40] {\r\n    height: 20vh;\r\n    background: #4b4b4b;\r\n    align-items: center;\r\n    margin-bottom: 20px;\r\n    margin-top: -20px;\n}\n.title[data-v-7abcea40] {\r\n    font-size: 60px;\r\n    color: #dd6969;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3159,7 +3159,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-bb718336] { font-size: 18px;\n}\n.order-box[data-v-bb718336] { border: 1px solid #cccccc; padding: 10px 15px;\n}\n.title[data-v-bb718336] { font-size: 36px;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-bb718336] { font-size: 18px;\n}\n.order-box[data-v-bb718336] { border: 1px solid #cccccc; padding: 10px 15px;\n}\n.title[data-v-bb718336] { font-size: 36px;\n}\nimg[data-v-bb718336] {\r\n    height: auto;\r\n    width: 300px;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3207,7 +3207,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-63cd6604] {\n    font-size: 14px;\n}\n.product-box[data-v-63cd6604] {\n    border: 1px solid #cccccc;\n    padding: 10px 15px;\n}\n.hero-section[data-v-63cd6604] {\n    height: 30vh;\n    background: #4b4b4b;\n    align-items: center;\n    margin-bottom: 20px;\n    margin-top: -20px;\n}\n.title[data-v-63cd6604] {\n    font-size: 60px;\n    color: #dd6969;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-63cd6604] {\n    font-size: 14px;\n}\n.product-box[data-v-63cd6604] {\n    border: 1px solid #cccccc;\n    padding: 10px 15px;\n}\n.hero-section[data-v-63cd6604] {\n    height: 20vh;\n    background: #4b4b4b;\n    align-items: center;\n    margin-bottom: 20px;\n    margin-top: -20px;\n}\n.title[data-v-63cd6604] {\n    font-size: 60px;\n    color: #dd6969;\n}\nimg[data-v-63cd6604] {\n   height: auto;\n   width: 210px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3231,7 +3231,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-55d32178] { font-size: 18px;\n}\n.title[data-v-55d32178] { font-size: 36px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-55d32178] { font-size: 18px;\n}\n.title[data-v-55d32178] { font-size: 36px;\n}\nimg[data-v-55d32178] {\r\n    height: auto;\r\n    width: 300px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3255,7 +3255,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-2f42e64c] { font-size: 14px;\n}\n.product-box[data-v-2f42e64c] { border: 1px solid #cccccc; padding: 10px 15px;\n}\n.hero-section[data-v-2f42e64c] { background: #ababab; height: 20vh; align-items: center; margin-bottom: 20px; margin-top: -20px;\n}\n.title[data-v-2f42e64c] { font-size: 60px; color: #ffffff;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-2f42e64c] { \r\n    font-size: 14px;\n}\n.product-box[data-v-2f42e64c] { \r\n    border: 1px solid #cccccc; padding: 10px 15px;\n}\n.hero-section[data-v-2f42e64c] {\r\n    height: 20vh;\r\n    background: #4b4b4b;\r\n    align-items: center;\r\n    margin-bottom: 20px;\r\n    margin-top: -20px;\n}\n.title[data-v-2f42e64c] {\r\n    font-size: 60px;\r\n    color: #dd6969;\n}\nimg[data-v-2f42e64c] {\r\n    height: auto;\r\n    width: 300px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -22715,21 +22715,13 @@ var render = function() {
               [
                 _c("td", [_vm._v(_vm._s(index + 1))]),
                 _vm._v(" "),
-                _c("td", { domProps: { innerHTML: _vm._s(product.name) } }),
+                _c("td", [_vm._v(_vm._s(product.name))]),
                 _vm._v(" "),
-                _c("td", { domProps: { innerHTML: _vm._s(product.units) } }, [
-                  _vm._v(_vm._s(product.units))
-                ]),
+                _c("td", [_vm._v(_vm._s(product.units))]),
                 _vm._v(" "),
-                _c("td", { domProps: { innerHTML: _vm._s(product.price) } }, [
-                  _vm._v(_vm._s(product.price))
-                ]),
+                _c("td", [_vm._v(_vm._s(product.price))]),
                 _vm._v(" "),
-                _c(
-                  "td",
-                  { domProps: { innerHTML: _vm._s(product.description) } },
-                  [_vm._v(_vm._s(product.description))]
-                )
+                _c("td", [_vm._v(_vm._s(product.description))])
               ]
             )
           }),

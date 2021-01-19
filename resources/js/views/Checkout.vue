@@ -89,4 +89,9 @@ export default {
 .order-box { border: 1px solid #cccccc; padding: 10px 15px; }
 .title { font-size: 36px; }
 
+img {
+    height: auto;
+    width: 300px;
+}
+
 </style>

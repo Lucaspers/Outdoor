@@ -48,8 +48,28 @@ export default {
 </script>
 
 <style scoped>
-.small-text { font-size: 14px; }
-.product-box { border: 1px solid #cccccc; padding: 10px 15px; }
-.hero-section { background: #ababab; height: 20vh; align-items: center; margin-bottom: 20px; margin-top: -20px; }
-.title { font-size: 60px; color: #ffffff; }
+.small-text { 
+    font-size: 14px; 
+}
+
+.product-box { 
+    border: 1px solid #cccccc; padding: 10px 15px; 
+}
+
+.hero-section {
+    height: 20vh;
+    background: #4b4b4b;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.title {
+    font-size: 60px;
+    color: #dd6969;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
 </style>

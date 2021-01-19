@@ -34,4 +34,9 @@ export default {
 <style scoped>
 .small-text { font-size: 18px; }
 .title { font-size: 36px; }
+
+img {
+    height: auto;
+    width: 300px;
+}
 </style>

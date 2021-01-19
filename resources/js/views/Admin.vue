@@ -69,6 +69,18 @@ export default {
 </script>
 
 <style scoped>
-.hero-section { height: 20vh; background: #ababab; align-items: center; margin-bottom: 20px; margin-top: -20px; }
-.title { font-size: 60px; color: #ffffff; }
+
+.hero-section {
+    height: 20vh;
+    background: #4b4b4b;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.title {
+    font-size: 60px;
+    color: #dd6969;
+}
+
 </style>
