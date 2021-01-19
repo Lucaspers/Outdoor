@@ -13,7 +13,7 @@
                                 <h5><span v-html="product.name"></span>
                                     <span class="small-text text-muted float-right">$ {{product.price}}</span>
                                 </h5>
-                                <button class="col-md-4 btn btn-sm btn-primary float-right">Buy Now</button>
+                                <button class="col-md-4 btn btn-sm btn-primary float-right">Purchase</button>
                             </router-link>
                         </div>
                     </div>
@@ -37,27 +37,18 @@
 </script>
 
 <style scoped>
+
+
     .small-text {
         font-size: 14px;
     }
     .product-box {
-        border: 1px solid #cccccc;
-        padding: 10px 15px;
-    }
-    .hero-section {
-        height: 20vh;
-        background: #4b4b4b;
-        align-items: center;
-        margin-bottom: 20px;
-        margin-top: -20px;
-    }
-    .title {
-        font-size: 60px;
-        color: #dd6969;
+        display: flex;
+        justify-content: center;
     }
 
     img {
        height: auto;
        width: 210px; 
     }
-    </style>
+</style>

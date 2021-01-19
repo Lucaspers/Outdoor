@@ -61,3 +61,34 @@ export default {
     }
 }
 </script>
+
+<style>
+
+.navbar {
+    border-bottom: 1px solid #4b4b4b;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.nav-link {
+   color:  #6c757d !important;
+}
+
+.py-4 {
+    padding-top: 80px !important;
+}
+
+h2.title {
+    color: #000000e6;
+    font-weight: 350;
+    padding-bottom: 24px;
+}
+
+.product-box {
+    border: 1px solid #cccccc;
+    padding: 10px 15px;
+}
+
+</style>
