@@ -86,9 +86,15 @@ h2.title {
     padding-bottom: 24px;
 }
 
+.box {
+    border: 3px solid #4b4b4b;
+    border-radius: 10px;
+    margin: 1px;
+    padding: 2px;
+}
+
 .product-box {
-    border: 1px solid #cccccc;
-    padding: 10px 15px;
+    margin-bottom: 15px;
 }
 
 </style>

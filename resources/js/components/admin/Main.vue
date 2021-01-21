@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style scoped>
-.big-text { font-size: 28px; }
-.product-box { border: 1px solid #cccccc; padding: 10px 15px; height: 20vh }
+.big-text {
+    font-size: 28px; 
+}
+.product-box {
+    border: 1px solid #4b4b4b; padding: 10px 15px; height: 20vh 
+}
 </style>

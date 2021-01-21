@@ -91,7 +91,8 @@ export default {
 
 img {
     height: auto;
-    width: 300px;
+    width: 260px;
+    border-radius: 50%;
 }
 
 </style>

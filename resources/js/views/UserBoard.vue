@@ -53,11 +53,14 @@ export default {
 }
 
 .product-box { 
-    border: 1px solid #cccccc; padding: 10px 15px; 
+    border: 1px solid #4b4b4b; padding: 10px 15px; 
 }
 
 img {
     height: auto;
     width: 300px;
+    border-radius: 50%;
 }
+
+
 </style>
