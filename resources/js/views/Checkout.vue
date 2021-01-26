@@ -20,6 +20,7 @@
                     </div>
                     <div v-if="isLoggedIn">
                             <span class="swish">You pay for the product by Swish to 0706 83 29 42!</span>
+                            <span class="swish">Free shipping with Delivery Goose.</span>
                         <div class="row">
                             <label for="address" class="col-md-3 col-form-label">Delivery Address</label>
                             <div class="col-md-9">
