@@ -19,6 +19,7 @@
                         <button class="col-md-4 btn btn-danger float-right" @click="register">Create an account</button>
                     </div>
                     <div v-if="isLoggedIn">
+                            <span class="swish">You pay for the product by Swish to 0706 83 29 42!</span>
                         <div class="row">
                             <label for="address" class="col-md-3 col-form-label">Delivery Address</label>
                             <div class="col-md-9">
@@ -93,6 +94,10 @@ img {
     height: auto;
     width: 260px;
     border-radius: 50%;
+}
+
+.swish {
+    font-weight: 500;
 }
 
 </style>
