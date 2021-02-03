@@ -24,27 +24,32 @@ const router = new VueRouter({
         {
             path: '/login',
             name: 'login',
-            component: Login
+            component: Login,
+            meta: { title: 'Outdoor Login' }
         },
         {
             path: '/register',
             name: 'register',
-            component: Register
+            component: Register,
+            meta: { title: 'Outdoor Register' }
         },
         {
             path: '/products/:id',
             name: 'single-products',
-            component: SingleProduct
+            component: SingleProduct,
+            meta: { title: 'Outdoor Product' }
         },
         {
             path: '/confirmation',
             name: 'confirmation',
-            component: Confirmation
+            component: Confirmation,
+            meta: { title: 'Outdoor Confirmation' }
         },
         {
             path: '/checkout',
             name: 'checkout',
             component: Checkout,
+            meta: { title: 'Outdoor Checkout' },
             props: (route) => ({ pid: route.query.pid })
         },
         {
@@ -53,7 +58,8 @@ const router = new VueRouter({
             component: UserBoard,
             meta: {
                 requiresAuth: true,
-                is_user: true
+                is_user: true,
+                title: 'Outdoor UserBoard'
             }
         },
         {
@@ -62,7 +68,8 @@ const router = new VueRouter({
             component: Admin,
             meta: {
                 requiresAuth: true,
-                is_admin: true
+                is_admin: true,
+                title: 'Outdoor AdminPage'
             }
         },
         {
@@ -71,7 +78,8 @@ const router = new VueRouter({
             component: Admin,
             meta: {
                 requiresAuth: true,
-                is_admin: true
+                is_admin: true,
+                title: 'Outdoor Admin'
             }
         },
     ],
@@ -108,6 +116,14 @@ router.beforeEach((to, from, next) => {
         next()
     }
 })
+
+const DEFAULT_TITLE = 'Outdoor';
+router.afterEach((to, from) => {
+  
+    Vue.nextTick(() => {
+        document.title = to.meta.title || DEFAULT_TITLE;
+    });
+});
 
 const app = new Vue({
     el: '#app',

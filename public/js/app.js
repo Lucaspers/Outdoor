@@ -2938,23 +2938,38 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__.default({
   }, {
     path: '/login',
     name: 'login',
-    component: _views_Login_vue__WEBPACK_IMPORTED_MODULE_4__.default
+    component: _views_Login_vue__WEBPACK_IMPORTED_MODULE_4__.default,
+    meta: {
+      title: 'Outdoor Login'
+    }
   }, {
     path: '/register',
     name: 'register',
-    component: _views_Register_vue__WEBPACK_IMPORTED_MODULE_5__.default
+    component: _views_Register_vue__WEBPACK_IMPORTED_MODULE_5__.default,
+    meta: {
+      title: 'Outdoor Register'
+    }
   }, {
     path: '/products/:id',
     name: 'single-products',
-    component: _views_SingleProduct_vue__WEBPACK_IMPORTED_MODULE_6__.default
+    component: _views_SingleProduct_vue__WEBPACK_IMPORTED_MODULE_6__.default,
+    meta: {
+      title: 'Outdoor Product'
+    }
   }, {
     path: '/confirmation',
     name: 'confirmation',
-    component: _views_Confirmation_vue__WEBPACK_IMPORTED_MODULE_8__.default
+    component: _views_Confirmation_vue__WEBPACK_IMPORTED_MODULE_8__.default,
+    meta: {
+      title: 'Outdoor Confirmation'
+    }
   }, {
     path: '/checkout',
     name: 'checkout',
     component: _views_Checkout_vue__WEBPACK_IMPORTED_MODULE_7__.default,
+    meta: {
+      title: 'Outdoor Checkout'
+    },
     props: function props(route) {
       return {
         pid: route.query.pid
@@ -2966,7 +2981,8 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__.default({
     component: _views_UserBoard_vue__WEBPACK_IMPORTED_MODULE_9__.default,
     meta: {
       requiresAuth: true,
-      is_user: true
+      is_user: true,
+      title: 'Outdoor UserBoard'
     }
   }, {
     path: '/admin/:page',
@@ -2974,7 +2990,8 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__.default({
     component: _views_Admin_vue__WEBPACK_IMPORTED_MODULE_10__.default,
     meta: {
       requiresAuth: true,
-      is_admin: true
+      is_admin: true,
+      title: 'Outdoor AdminPage'
     }
   }, {
     path: '/admin',
@@ -2982,7 +2999,8 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__.default({
     component: _views_Admin_vue__WEBPACK_IMPORTED_MODULE_10__.default,
     meta: {
       requiresAuth: true,
-      is_admin: true
+      is_admin: true,
+      title: 'Outdoor Admin'
     }
   }]
 });
@@ -3027,6 +3045,12 @@ router.beforeEach(function (to, from, next) {
   } else {
     next();
   }
+});
+var DEFAULT_TITLE = 'Outdoor';
+router.afterEach(function (to, from) {
+  vue__WEBPACK_IMPORTED_MODULE_0__.default.nextTick(function () {
+    document.title = to.meta.title || DEFAULT_TITLE;
+  });
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
   el: '#app',
