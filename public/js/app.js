@@ -2364,6 +2364,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
+      showMobileMenu: false,
       name: null,
       user_type: 0,
       isLoggedIn: localStorage.getItem('Outdoor.jwt') != null
@@ -23028,12 +23029,32 @@ var render = function() {
               [_vm._v("Outdoor demo-store")]
             ),
             _vm._v(" "),
-            _vm._m(0),
+            _c(
+              "button",
+              {
+                staticClass: "navbar-toggler",
+                attrs: {
+                  type: "button",
+                  "data-toggle": "collapse",
+                  "data-target": "#navbarSupportedContent",
+                  "aria-controls": "navbarSupportedContent",
+                  "aria-expanded": "false",
+                  "aria-label": "Toggle navigation"
+                },
+                on: {
+                  click: function($event) {
+                    _vm.showMobileMenu = !_vm.showMobileMenu
+                  }
+                }
+              },
+              [_c("span", { staticClass: "navbar-toggler-icon" })]
+            ),
             _vm._v(" "),
             _c(
               "div",
               {
                 staticClass: "collapse navbar-collapse",
+                class: { show: _vm.showMobileMenu },
                 attrs: { id: "navbarSupportedContent" }
               },
               [
@@ -23124,28 +23145,7 @@ var render = function() {
     )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "button",
-      {
-        staticClass: "navbar-toggler",
-        attrs: {
-          type: "button",
-          "data-toggle": "collapse",
-          "data-target": "#navbarSupportedContent",
-          "aria-controls": "navbarSupportedContent",
-          "aria-expanded": "false",
-          "aria-label": "Toggle navigation"
-        }
-      },
-      [_c("span", { staticClass: "navbar-toggler-icon" })]
-    )
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

@@ -3,10 +3,10 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <router-link :to="{name: 'home'}" class="navbar-brand">Outdoor demo-store</router-link>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button @click="showMobileMenu=!showMobileMenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" :class="{show: showMobileMenu}">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto"></ul>
                     <!-- Right Side Of Navbar -->
@@ -32,6 +32,7 @@
 export default {
     data() {
         return {
+            showMobileMenu: false,
             name: null,
             user_type: 0,
             isLoggedIn: localStorage.getItem('Outdoor.jwt') != null
