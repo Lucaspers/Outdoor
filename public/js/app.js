@@ -2442,6 +2442,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['pid'],
   data: function data() {
@@ -2492,7 +2494,7 @@ __webpack_require__.r(__webpack_exports__);
       var address = this.address;
       var product_id = this.product.id;
       var quantity = this.quantity;
-      axios.post('api/orders/', {
+      axios.post('api/orders', {
         address: address,
         quantity: quantity,
         product_id: product_id
@@ -2550,9 +2552,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
-//
-//
-//
 //
 //
 //
@@ -3087,7 +3086,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.big-text[data-v-137c6ca4] { font-size: 28px;\n}\n.product-box[data-v-137c6ca4] { border: 1px solid #cccccc; padding: 10px 15px; height: 20vh\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.big-text[data-v-137c6ca4] {\r\n    font-size: 28px;\n}\n.product-box[data-v-137c6ca4] {\r\n    border: 1px solid #4b4b4b; padding: 10px 15px; height: 20vh\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3135,7 +3134,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.navbar {\r\n    border-bottom: 1px solid #4b4b4b;\r\n    position: fixed;\r\n    width: 100%;\r\n    background-color: #fff;\r\n    z-index: 2;\n}\n.nav-link {\r\n   color:  #6c757d !important;\n}\n.py-4 {\r\n    padding-top: 80px !important;\n}\nh2.title {\r\n    color: #000000e6;\r\n    font-weight: 350;\r\n    padding-bottom: 24px;\n}\n.product-box {\r\n    border: 1px solid #cccccc;\r\n    padding: 10px 15px;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.navbar {\r\n    border-bottom: 1px solid #4b4b4b;\r\n    position: fixed;\r\n    width: 100%;\r\n    background-color: #fff;\r\n    z-index: 2;\n}\n.nav-link {\r\n   color:  #6c757d !important;\n}\n.py-4 {\r\n    padding-top: 80px !important;\n}\nh2.title {\r\n    color: #000000e6;\r\n    font-weight: 350;\r\n    padding-bottom: 24px;\n}\n.box {\r\n    border: 3px solid #4b4b4b;\r\n    border-radius: 10px;\r\n    margin: 1px;\r\n    padding: 2px;\n}\n.product-box {\r\n    margin-bottom: 15px;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3159,7 +3158,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-bb718336] { font-size: 18px;\n}\n.order-box[data-v-bb718336] { border: 1px solid #cccccc; padding: 10px 15px;\n}\n.title[data-v-bb718336] { font-size: 36px;\n}\nimg[data-v-bb718336] {\r\n    height: auto;\r\n    width: 300px;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-bb718336] { font-size: 18px;\n}\n.order-box[data-v-bb718336] { border: 1px solid #cccccc; padding: 10px 15px;\n}\n.title[data-v-bb718336] { font-size: 36px;\n}\nimg[data-v-bb718336] {\r\n    height: auto;\r\n    width: 260px;\r\n    border-radius: 50%;\n}\n.swish[data-v-bb718336] {\r\n    font-weight: 500;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3207,7 +3206,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-63cd6604] {\n    font-size: 14px;\n}\n.product-box[data-v-63cd6604] {\n    display: flex;\n    justify-content: center;\n}\nimg[data-v-63cd6604] {\n   height: auto;\n   width: 210px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-63cd6604] {\n    font-size: 14px;\n}\n.product-box[data-v-63cd6604] {\n    display: flex;\n    justify-content: center;\n}\nimg[data-v-63cd6604] {\n   height: auto;\n   width: 210px; \n   border-radius: 8px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3231,7 +3230,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-55d32178] { font-size: 18px;\n}\n.title[data-v-55d32178] { font-size: 36px;\n}\nimg[data-v-55d32178] {\r\n    height: auto;\r\n    width: 300px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-55d32178] { font-size: 18px;\n}\n.title[data-v-55d32178] { font-size: 36px;\n}\nimg[data-v-55d32178] {\r\n    height: auto;\r\n    width: 300px;\r\n    border-radius: 50%;\n}\n.col-md-8 img[data-v-55d32178] {\r\n    display: flex;\r\n    justify-content: center;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3255,7 +3254,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-2f42e64c] { \r\n    font-size: 14px;\n}\n.product-box[data-v-2f42e64c] { \r\n    border: 1px solid #cccccc; padding: 10px 15px;\n}\nimg[data-v-2f42e64c] {\r\n    height: auto;\r\n    width: 300px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.small-text[data-v-2f42e64c] { \r\n    font-size: 14px;\n}\n.product-box[data-v-2f42e64c] { \r\n    border: 1px solid #4b4b4b; padding: 10px 15px;\n}\nimg[data-v-2f42e64c] {\r\n    height: auto;\r\n    width: 300px;\r\n    border-radius: 50%;\n}\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -23002,7 +23001,7 @@ var render = function() {
             _c(
               "router-link",
               { staticClass: "navbar-brand", attrs: { to: { name: "home" } } },
-              [_vm._v("Outdoor")]
+              [_vm._v("Outdoor demo-store")]
             ),
             _vm._v(" "),
             _vm._m(0),
@@ -23233,6 +23232,14 @@ var render = function() {
           _vm._v(" "),
           _vm.isLoggedIn
             ? _c("div", [
+                _c("span", { staticClass: "swish" }, [
+                  _vm._v("You pay for the product by Swish to 0706 83 29 43!")
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "swish" }, [
+                  _vm._v("Free shipping with Delivery Goose.")
+                ]),
+                _vm._v(" "),
                 _c("div", { staticClass: "row" }, [
                   _c(
                     "label",
@@ -23378,8 +23385,6 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _vm._m(0),
-    _vm._v(" "),
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
@@ -23393,7 +23398,10 @@ var render = function() {
                 [
                   _c(
                     "router-link",
-                    { attrs: { to: { path: "/products/" + product.id } } },
+                    {
+                      staticClass: "box",
+                      attrs: { to: { path: "/products/" + product.id } }
+                    },
                     [
                       _c("img", {
                         attrs: { src: product.image, alt: product.name }
@@ -23417,7 +23425,7 @@ var render = function() {
                           staticClass:
                             "col-md-4 btn btn-sm btn-primary float-right"
                         },
-                        [_vm._v("Purchase")]
+                        [_vm._v("View")]
                       )
                     ]
                   )
@@ -23432,21 +23440,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "container-fluid hero-section d-flex align-content-center justify-content-center flex-wrap ml-auto"
-      },
-      [_c("h2", { staticClass: "title" }, [_vm._v("Welcome to Outdoor")])]
-    )
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -23810,6 +23804,7 @@ var render = function() {
         { staticClass: "col-md-8 offset-md-2" },
         [
           _c("img", {
+            staticClass: "row justify-content-center",
             attrs: { src: _vm.product.image, alt: _vm.product.name }
           }),
           _vm._v(" "),

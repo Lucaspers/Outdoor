@@ -19,7 +19,7 @@
                         <button class="col-md-4 btn btn-danger float-right" @click="register">Create an account</button>
                     </div>
                     <div v-if="isLoggedIn">
-                            <span class="swish">You pay for the product by Swish to 0706 83 29 42!</span>
+                            <span class="swish">You pay for the product by Swish to 0706 83 29 43!</span>
                             <span class="swish">Free shipping with Delivery Goose.</span>
                         <div class="row">
                             <label for="address" class="col-md-3 col-form-label">Delivery Address</label>
@@ -72,8 +72,7 @@ export default {
             let address = this.address
             let product_id = this.product.id
             let quantity = this.quantity
-
-            axios.post('api/orders/', {address, quantity, product_id})
+            axios.post('api/orders', {address, quantity, product_id})
                     .then(response => this.$router.push('/confirmation'))
         },
         checkUnits(e){
