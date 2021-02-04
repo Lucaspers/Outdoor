@@ -1,4 +1,3 @@
-README.md
 Outdoor
 
 Examensarbete-WIE19G - E-handel Skapad med Laravel och Vue.
